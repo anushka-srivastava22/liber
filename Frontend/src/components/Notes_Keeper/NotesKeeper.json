@@ -1,0 +1,17 @@
+{
+    "Data Structures" : {
+        "content" : "A data structure, in the simplest term is a scheme for organizing logically related data in computer's memory. A data structure should be seen as a logical concept that must address two fundamental concerns."
+    },
+
+    "Operating System" : {
+        "content" : "An operating system (OS) is basically a collection of software that manages computer hardware resources and provides common services for computer programs. "
+    },
+
+    "Database Management System" : {
+        "content" : "A database management system (DBMS) is system software for creating and managing databases. A DBMS makes it possible for end users to create, protect, read, update and delete data in a database. "
+    },
+
+    "Computer Network" : {
+        "content" : "A computer network is a set of computers sharing resources located on or provided by network nodes."
+    }
+}

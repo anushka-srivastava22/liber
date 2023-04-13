@@ -1,0 +1,39 @@
+{
+    "Data Structure and Algorithm" : {
+        "sdate" : "Starting on 16th Aug",
+        "imgurl" : "/images/courses/dsa.png"
+    },
+
+    "Operating System" : {
+        "sdate" : "Starting on 19th Aug",
+        "imgurl" : "/images/courses/os.png"
+    },
+
+    "Database Management System" : {
+        "sdate" : "Starting on 24th Aug",
+        "imgurl" : "/images/courses/dbms.png"
+    },
+
+    "Computer Networks" : {
+        "sdate" : "Starting on 29th Aug",
+        "imgurl" : "/images/courses/cn.png"
+    
+    },
+
+
+    "Analog Design" : {
+        "sdate" : "Starting on 28th Aug",
+        "imgurl" : "/images/courses/ad.png"
+    },
+
+    "Digital Design" : {
+        "sdate" : "Starting on 29th Sept",
+        "imgurl" : "/images/courses/dd.png"
+    
+    },
+
+    "System Verilog" : {
+        "sdate" : "Starting on 19th Sept",
+        "imgurl" : "/images/courses/sv.png"
+    }
+}

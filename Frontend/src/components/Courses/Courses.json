@@ -1,0 +1,78 @@
+{
+    "Data Structures" : {
+        "def" : "A data structure, in the simplest term is a scheme for organizing logically related data in computer's memory. A data structure should be seen as a logical concept that must address two fundamental concerns.",
+        "keywords" : ["stack","queue","bst","heap"],
+        "domain" : "CS/IT",
+        "rating" : 4.2,
+        "views" : 2700,
+        "tag" : "Most Visited",
+        "imgurl" : "/images/courses/DSA.png",
+        "links" : ["https://youtube.com/playlist?list=PLu0W_9lII9ahIappRPN0MCAgtOu3lQjQi","https://youtu.be/hCrO_cR7kno","https://youtube.com/playlist?list=PLDzeHZWIZsTryvtXdMr6rPh4IDexB5NIA","https://youtube.com/playlist?list=PLfqMhTWNBTe0b2nM6JHVCnAkhQRGiZMSJ","https://youtube.com/playlist?list=PL-Jc9J83PIiFj7YSPl2ulcpwy-mwj1SSk"]
+    },
+
+    "Operating System" : {
+        "def" : "An operating system (OS) is basically a collection of software that manages computer hardware resources and provides common services for computer programs. ",
+        "keywords" : ["sjf","paging","fcfs","roundrobin"],
+        "domain" : "CS/IT",
+        "rating" : 3.7,
+        "views" : 2340,
+        "tag" : "Most Valuable",
+        "imgurl" : "/images/courses/OS.png",
+        "link" : ["https://youtube.com/playlist?list=PLxCzCOWd7aiGz9donHRrE9I3Mwn6XdP8p","https://youtube.com/playlist?list=PLBlnK6fEyqRiVhbXDGLXDk_OQAeuVcp2O","https://youtu.be/mXw9ruZaxzQ","https://youtube.com/playlist?list=PLdo5W4Nhv31a5ucW_S1K3-x6ztBRD-PNa","https://youtube.com/playlist?list=PLdo5W4Nhv31a5ucW_S1K3-x6ztBRD-PNa","https://youtu.be/aqR2icT3Agg"]
+    },
+
+    "Database Management System" : {
+        "def" : "A database management system (DBMS) is system software for creating and managing databases. A DBMS makes it possible for end users to create, protect, read, update and delete data in a database. ",
+        "keywords" : ["dbms","table","query","schema"],
+        "domain" : "CS/IT",
+        "rating" : 3.2,
+        "views" : 1900,
+        "tag" : "Most Valuable",
+        "imgurl" : "/images/courses/DBMS.png",
+        "link" : ["https://youtube.com/playlist?list=PLxCzCOWd7aiFAN6I8CuViBuCdJgiOkT2Y","https://youtube.com/playlist?list=PLBlnK6fEyqRi_CUQ-FXxgzKQ1dwr_ZJWZ","https://youtube.com/playlist?list=PLdo5W4Nhv31b33kF46f9aFjoJPOkdlsRc","https://youtube.com/playlist?list=PLrjkTql3jnm-CLxHftqLgkrZbM8fUt0vn","https://youtu.be/c5HAwKX-suM"]
+    },
+
+    "Computer Network" : {
+        "def" : "A computer network is a set of computers sharing resources located on or provided by network nodes.",
+        "keywords" : ["topology","network","protocol","osimodel"],
+        "domain" : "CS/IT",
+        "rating" : 2.6,
+        "views" : 1100,
+        "tag" : "Most Visited",
+        "imgurl" : "/images/courses/CN.png",
+        "link" : ["https://youtu.be/IPvYjXCsTg8","https://youtube.com/playlist?list=PLBlnK6fEyqRgMCUAG0XRw78UA8qnv6jEx","https://youtube.com/playlist?list=PLxCzCOWd7aiGFBD2-2joCpWOLUrDLvVV_ ","https://youtu.be/L3ZzkOTDins","https://youtube.com/playlist?list=PLqleLpAMfxGCUpDRFUnLKeDrgBsPOwTQK"]
+    },
+
+    "System Verilog" : {
+        "def" : "System Verilog is a hardware description and hardware verification language used to model, design, simulate, test and implement electronic systems.  ",
+        "keywords" : ["microprocessor","memory"],
+        "domain" : "ECE",
+        "rating" : 3.2,
+        "views" : 1300,
+        "tag" : "Most Valuable",
+        "imgurl" : "/images/courses/SV.png",
+        "link": ["https://youtube.com/playlist?list=PL_3xKnVkfI2hB9gBEsv5QGB4LRscGAQl9","https://youtube.com/playlist?list=PLUtfVcb-iqn-EkuBs3arreilxa2UKIChl","https://youtu.be/oevwHWfQMZw","https://youtube.com/playlist?list=PL_3xKnVkfI2itQhCyfnamNYSCHd2KHi4k","https://youtu.be/nblGw37Fv8A"]
+    },
+
+    "Analog Design" : {
+        "def" : "Analog design in the context of integrated circuit (IC) design is a discipline that focuses on the creation of circuits that operate in and are optimized for continuous time-domain behavior. ",
+        "keywords" : ["integrated circuit","compiler"],
+        "domain" : "ECE",
+        "rating" : 2.6,
+        "views" : 2200,
+        "tag" : "Most Valuable",
+        "imgurl" : "/images/courses/AD.png",
+        "link" : ["https://youtube.com/playlist?list=PL3pGy4HtqwD0rl7gQoESHR-chSq4OPN5p","https://youtube.com/playlist?list=PLBDB2c4Mp7hDu6dGJF4T5m0-Myuh06xix","https://youtube.com/playlist?list=PLMSBalys69yzp1vrmnYAmpRFiptbuGuaj","https://youtube.com/playlist?list=PLbMVogVj5nJRlMz5diOg9wBizaU6-egJc","https://youtube.com/playlist?list=PLtswnpeGB_xwtVFCQZxYIEq81xaJJbjbO"]
+    },
+
+    "Digital Design" : {
+        "def" : "Digital Design any kind of design that appears in a digital format (on an app or website), rather than in print (on a physical page).",
+        "keywords" : ["web design","animations"],
+        "domain" : "ECE",
+        "rating" : 2.4,
+        "views" : 1200,
+        "tag" : "Most Visited",
+        "imgurl" : "/images/courses/DD.png",
+        "link" : ["https://youtube.com/playlist?list=PLPIqCiMhcdO7bBmieyG5u41x2Ogcn67Bs","https://youtube.com/playlist?list=PL5Q2soXY2Zi_FRrloMa2fUYWPGiZUBQo2"]
+    }
+}
