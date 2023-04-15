@@ -18,7 +18,7 @@ const divStyles = {
   display: "flex",
   alignItems: "center",
   justifyContent: "center",
-  height: "400px",
+  height: "590px",
   backgroundSize: "cover",
 };
 
