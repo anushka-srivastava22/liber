@@ -1,11 +1,8 @@
 import ImageSlider from "./ImageSlider";
-import ReactDOM from 'react-dom/client';
+import ReactDOM from "react-dom/client";
 
+function Index() {
+  return <ImageSlider />;
+}
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
-
-root.render(
-    <ImageSlider />
-);
-
- export default Index 
+export default Index;
