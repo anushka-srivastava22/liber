@@ -11,9 +11,7 @@ import Dashboard from "./components/Dashboard/Dashboard";
 import NotesKeeper from "./components/Notes_Keeper/NotesKeeper";
 
 import Index from "./components/LandingPage/Index";
-import reportWebVitals from "./reportWebVitals";
-import ReactDOM from "react-dom/client";
-import ImageSlider from "./components/LandingPage/ImageSlider";
+
 
 const colors = {
   brand: {
@@ -32,7 +30,7 @@ function App() {
       <Navbar />
       <BrowserRouter>
         <Routes>
-          <Route exact path="/" element={<ImageSlider />} />
+          <Route exact path="/" element={<Index />} />
           <Route exact path="/trivia" element={<Trivia />} />
           <Route exact path="/account" element={<Dashboard />} />
           <Route exact path="/noteskeeper" element={<NotesKeeper />} />
