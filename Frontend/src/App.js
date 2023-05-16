@@ -10,7 +10,7 @@ import Trivia from "./components/TechTrivia/Trivia";
 import Dashboard from "./components/Dashboard/Dashboard";
 import NotesKeeper from "./components/Notes_Keeper/NotesKeeper";
 
-import Index from "./components/LandingPage/Index";
+import LandingPage from "./components/Landing/LandingPage";
 
 
 const colors = {
@@ -30,7 +30,7 @@ function App() {
       <Navbar />
       <BrowserRouter>
         <Routes>
-          <Route exact path="/" element={<Index />} />
+          <Route exact path="/" element={<LandingPage />} />
           <Route exact path="/trivia" element={<Trivia />} />
           <Route exact path="/account" element={<Dashboard />} />
           <Route exact path="/noteskeeper" element={<NotesKeeper />} />
