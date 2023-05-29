@@ -4,12 +4,10 @@ import Navbar from "./components/Navbar";
 import "./App.css";
 import HomePage from "./components/Home/HomePage";
 import Footer from "./components/Footer";
-
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Trivia from "./components/TechTrivia/Trivia";
 import Dashboard from "./components/Dashboard/Dashboard";
 import NotesKeeper from "./components/Notes_Keeper/NotesKeeper";
-
 import LandingPage from "./components/Landing/LandingPage";
 
 
@@ -30,7 +28,7 @@ function App() {
       <Navbar />
       <BrowserRouter>
         <Routes>
-          <Route exact path="/" element={<LandingPage />} />
+          <Route exact path="/" element={<HomePage />} />
           <Route exact path="/trivia" element={<Trivia />} />
           <Route exact path="/account" element={<Dashboard />} />
           <Route exact path="/noteskeeper" element={<NotesKeeper />} />

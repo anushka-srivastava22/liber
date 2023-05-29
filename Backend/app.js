@@ -1,5 +1,18 @@
+const mongoose = require('mongoose');
 const express = require('express');
 const app = express();
+
+const DB = 'mongodb+srv://srivastavaanushka3:libermajorproject@cluster0.7nnisuo.mongodb.net/liber?retryWrites=true&w=majority';
+
+
+mongoose.connect(DB, {
+  userNewUrlParser:true,
+  userCreateIndex: true,
+  useUnifiedTopology: true,
+  useFindandModify: false
+}).then(() => {
+  console.log(`connection successful`);
+}).catch((err) => console.log(`no connection`));
 
 const middleware = (req,res,next) => {
   console.log(`Hello middleware`);
