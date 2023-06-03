@@ -99,7 +99,7 @@ import {
                   pointerEvents="none"
                   children={<i className="fas fa-signature"></i>}
                 />
-                <Input type={"text"} placeholder="Name" onChange={event => setName(event.currentTarget.value)} />
+                <Input type={"text"} placeholder="Name" onChange={event => setName(event.target.value)} />
               </InputGroup>
             </Box>
             <Box pt="3">
@@ -108,7 +108,7 @@ import {
                   pointerEvents="none"
                   children={<i className="fas fa-at"></i>}
                 />
-                <Input type={"email"} placeholder="E-mail ID" onChange={event => setEmail(event.currentTarget.value)} />
+                <Input type={"email"} placeholder="E-mail ID" onChange={event => setEmail(event.target.value)} />
               </InputGroup>
             </Box>
             <Box pt="3">
@@ -117,7 +117,7 @@ import {
                   pointerEvents="none"
                   children={<i className="fas fa-key"></i>}
                 />
-                <Input type={"password"} placeholder="Password" onChange={event => setPassword(event.currentTarget.value)} />
+                <Input type={"password"} placeholder="Password" onChange={event => setPassword(event.target.value)} />
               </InputGroup>
             </Box>
             <Box pt="3">
