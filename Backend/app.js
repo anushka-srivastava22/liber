@@ -2,6 +2,9 @@ const mongoose = require('mongoose');
 const express = require('express');
 const app = express();
 app.use(express.json());
+const cors = require("cors");
+app.use(cors());
+const bcrypt = require("bcryptjs");
 //const { MongoClient } = require('mongodb');
 
 const uri = "mongodb+srv://srivastavaanushka3:LiberMajorProject@cluster0.xbteq4v.mongodb.net/Liber?retryWrites=true&w=majority";
