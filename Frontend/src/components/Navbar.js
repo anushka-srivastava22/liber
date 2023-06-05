@@ -43,7 +43,7 @@ export default function Navbar() {
         <Image borderRadius="full" boxSize="50px" src="/logo.jpg" alt="Logo" />
       </Box>
       <Box style={{ display: "flex", cursor:"pointer"}}>
-        <Box color={'black'} marginTop={4} marginLeft={7} marginRight={7}>
+        <Box color={'black'} marginTop={4} marginLeft={7} marginRight={7} onClick={() => {window.location.href="http://localhost:3001/"}}>
           Home
         </Box>
         <Box color={'black'} marginTop={4} marginLeft={7} marginRight={7}>
@@ -52,7 +52,7 @@ export default function Navbar() {
         <Box color={'black'} marginTop={4} marginLeft={7} marginRight={7}>
           Community
         </Box>
-        <Box color={'black'} marginTop={4} marginLeft={7} marginRight={7} onClick={() => {window.location.href="http://localhost:3000/trivia"}} >
+        <Box color={'black'} marginTop={4} marginLeft={7} marginRight={7} onClick={() => {window.location.href="http://localhost:3001/trivia"}} >
           Tech Trivia
         </Box>
         

@@ -18,16 +18,6 @@ import {
   
   export default function Signup(){
 
-    /*constructor(props)
-    {
-      super(props)
-      this.state={
-        fname:"",
-        email:"",
-        password:""
-      };
-      this.handleSubmit = this.handleSubmit.bind(this);
-    }*/
     const [fname, setName] = useState('');
     const [email, setEmail] = useState('');
     const [password, setPassword] = useState('');
@@ -37,7 +27,7 @@ import {
         e.preventDefault();
   
         console.log(fname, email, password);
-        fetch("http://localhost:3001/register", {
+        fetch("http://localhost:3000/register", {
           method: "POST",
           crossDomain: true,
           headers: {
