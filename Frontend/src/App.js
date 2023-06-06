@@ -1,14 +1,14 @@
 // 1. Import the extendTheme function
 import { extendTheme, ChakraProvider } from "@chakra-ui/react";
-import Navbar from "./components/Navbar";
-import "./App.css";
-import HomePage from "./components/Home/HomePage";
-import Footer from "./components/Footer";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
+import "./App.css";
+import Navbar from "./components/Navbar";
+import Footer from "./components/Footer";
+import HomePage from "./components/Home/HomePage";
 import Trivia from "./components/TechTrivia/Trivia";
-import Dashboard from "./components/Dashboard/Dashboard";
 import NotesKeeper from "./components/Notes_Keeper/NotesKeeper";
-import LandingPage from "./components/Landing/LandingPage";
+import ContactPage from "./components/Contact/ContactPage";
+import CodeEditorPage from "./components/CodeEditor/CodeEditorPage";
 
 
 const colors = {
@@ -29,9 +29,10 @@ function App() {
       <BrowserRouter>
         <Routes>
           <Route exact path="/" element={<HomePage />} />
+          <Route exact path="/codeeditor" element={<CodeEditorPage />} />
           <Route exact path="/trivia" element={<Trivia />} />
-          <Route exact path="/account" element={<Dashboard />} />
           <Route exact path="/noteskeeper" element={<NotesKeeper />} />
+          <Route exact path="/contact" element={<ContactPage />} />
           {/* <TriviaQuizPanel/> */}
           {/* <CourseDetails/> */}
         </Routes>

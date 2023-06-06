@@ -49,17 +49,13 @@ export default function Navbar() {
         <Box color={'black'} marginTop={4} marginLeft={7} marginRight={7}>
           Courses
         </Box>
-        <Box color={'black'} marginTop={4} marginLeft={7} marginRight={7}>
-          Community
+        <Box color={'black'} marginTop={4} marginLeft={7} marginRight={7} onClick={() => {window.location.href="http://localhost:3001/codeeditor"}}>
+          Code Editor
         </Box>
         <Box color={'black'} marginTop={4} marginLeft={7} marginRight={7} onClick={() => {window.location.href="http://localhost:3001/trivia"}} >
           Tech Trivia
         </Box>
-        
-        <Box color={'black'} marginTop={4} marginLeft={7} marginRight={7}>
-          About us
-        </Box>
-        <Box color={'black'} marginTop={4} marginLeft={7} marginRight={7}>
+        <Box color={'black'} marginTop={4} marginLeft={7} marginRight={7} onClick={() => {window.location.href="http://localhost:3001/contact"}}>
           Contact us
         </Box>
         
