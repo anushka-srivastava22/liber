@@ -4,13 +4,13 @@ import "react-slideshow-image/dist/styles.css";
 
 const slideImages = [
   {
-    imgurl: "/images/courses/CN.png",
+    imgurl: "/images/slider1.jpg",
   },
   {
-    imgurl: "/images/courses/DSA.png",
+    imgurl: "/images/slider2.jpg",
   },
   {
-    imgurl: "/images/courses/AD.png",
+    imgurl: "/images/slider3.jpg",
   },
 ];
 

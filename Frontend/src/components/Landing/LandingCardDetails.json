@@ -1,14 +1,17 @@
 {
     "Courses" : {
-        "def" : "You will get to know about important subjects of different branches of Engineering. On clicking on them you will get best youtube links and books.",
-        "imgurl" : "/images/courses/DSA.png"
+        "def" : "You will get to know about important subjects of different branches of Engineering.",
+        "imgurl" : "/images/course.png",
+        "link" : "http://localhost:3001/courses"
     },
-    "Community Section" : {
-        "def" : "You can discuss your doubts with various users around the world.",
-        "imgurl" : "/images/courses/DSA.png"
+    "Discussion" : {
+        "def" : "You can discuss your doubts and get help from Seria - AI Chatbot.",
+        "imgurl" : "/images/discussion.png",
+        "link" : "http://localhost:3001/discussion"
     },
     "TechTrivia": {
         "def" : "You can test your knowledge and technical skills by playing technical quiz of various subjects.",
-        "imgurl" : "/images/courses/DSA.png"
+        "imgurl" : "/images/trivia.png",
+        "link" : "http://localhost:3001/trivia"
     }
 }

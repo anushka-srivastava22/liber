@@ -1,39 +1,46 @@
 {
     "Data Structure and Algorithm" : {
-        "sdate" : "Starting on 16th Aug",
-        "imgurl" : "/images/courses/dsa.png"
+        "sdate" : "16th Aug",
+        "imgurl" : "/images/courses/dsa.png",
+        "link" : "https://www.geeksforgeeks.org/data-structure-gq/"
     },
 
     "Operating System" : {
-        "sdate" : "Starting on 19th Aug",
-        "imgurl" : "/images/courses/os.png"
+        "sdate" : "19th Aug",
+        "imgurl" : "/images/courses/os.png",
+        "link" : "https://codescracker.com/exam/showtest.php?subid=15"
     },
 
     "Database Management System" : {
-        "sdate" : "Starting on 24th Aug",
-        "imgurl" : "/images/courses/dbms.png"
+        "sdate" : " 24th Aug",
+        "imgurl" : "/images/courses/dbms.png",
+        "link" : "https://www.sanfoundry.com/1000-database-management-system-questions-answers/"
     },
 
     "Computer Networks" : {
-        "sdate" : "Starting on 29th Aug",
-        "imgurl" : "/images/courses/cn.png"
+        "sdate" : "29th Aug",
+        "imgurl" : "/images/courses/cn.png",
+        "link" : "https://www.sanfoundry.com/computer-network-questions-answers/"
     
     },
 
 
     "Analog Design" : {
-        "sdate" : "Starting on 28th Aug",
-        "imgurl" : "/images/courses/ad.png"
+        "sdate" : "28th Aug",
+        "imgurl" : "/images/courses/ad.png",
+        "link" : "https://www.sanfoundry.com/analog-circuits-questions-answers-quiz/"
     },
 
     "Digital Design" : {
-        "sdate" : "Starting on 29th Sept",
-        "imgurl" : "/images/courses/dd.png"
+        "sdate" : "29th Sept",
+        "imgurl" : "/images/courses/dd.png",
+        "link":"https://www.indiabix.com/digital-electronics/digital-design/"
     
     },
 
     "System Verilog" : {
-        "sdate" : "Starting on 19th Sept",
-        "imgurl" : "/images/courses/sv.png"
+        "sdate" : "19th Sept",
+        "imgurl" : "/images/courses/sv.png",
+        "link" : "https://verificationguide.com/systemverilog-quiz/"
     }
 }

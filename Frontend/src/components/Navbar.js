@@ -46,18 +46,16 @@ export default function Navbar() {
         <Box color={'black'} marginTop={4} marginLeft={7} marginRight={7} onClick={() => {window.location.href="http://localhost:3001/"}}>
           Home
         </Box>
-        <Box color={'black'} marginTop={4} marginLeft={7} marginRight={7}>
+        <Box color={'black'} marginTop={4} marginLeft={7} marginRight={7} onClick={() => {window.location.href="http://localhost:3001/courses"}}>
           Courses
         </Box>
-        <Box color={'black'} marginTop={4} marginLeft={7} marginRight={7} onClick={() => {window.location.href="http://localhost:3001/codeeditor"}}>
-          Code Editor
+        <Box color={'black'} marginTop={4} marginLeft={7} marginRight={7} onClick={() => {window.location.href="http://localhost:3001/discussion"}}>
+          Discussion
         </Box>
         <Box color={'black'} marginTop={4} marginLeft={7} marginRight={7} onClick={() => {window.location.href="http://localhost:3001/trivia"}} >
           Tech Trivia
         </Box>
-        <Box color={'black'} marginTop={4} marginLeft={7} marginRight={7} onClick={() => {window.location.href="http://localhost:3001/contact"}}>
-          Contact us
-        </Box>
+        
         
       </Box>
       
@@ -71,15 +69,14 @@ export default function Navbar() {
             </MenuButton>
             <MenuList>
               <MenuGroup title="Profile">
-                <MenuItem onClick={() => {window.location.href="http://localhost:3000/account"}}>My Account</MenuItem>
-                <MenuItem onClick={() => {window.location.href="http://localhost:3000/favs"}}>My Favourites </MenuItem>
-                <MenuItem onClick={() => {window.location.href="http://localhost:3000/trivia"}}>Play Trivia </MenuItem>
-                <MenuItem onClick={() => {window.location.href="http://localhost:3000/noteskeeper"}}>Notes Keeper </MenuItem>
+                <MenuItem onClick={() => {window.location.href="#"}}>My Account</MenuItem>
+                <MenuItem onClick={() => {window.location.href="http://localhost:3001/trivia"}}>Play Trivia </MenuItem>
+                <MenuItem onClick={() => {window.location.href="http://localhost:3001/noteskeeper"}}>Notes Keeper </MenuItem>
               </MenuGroup>
               <MenuDivider />
               <MenuGroup title="Help">
-                <MenuItem onClick={() => {window.location.href="http://localhost:3000/docs"}}>Docs</MenuItem>
-                <MenuItem onClick={() => {window.location.href="http://localhost:3000/faq"}}>FAQ</MenuItem>
+                <MenuItem onClick={() => {window.location.href="http://localhost:3001/docs"}}>Docs</MenuItem>
+                <MenuItem onClick={() => {window.location.href="http://localhost:3001/faq"}}>FAQ</MenuItem>
               </MenuGroup>
               <MenuDivider />
               <MenuGroup title="">

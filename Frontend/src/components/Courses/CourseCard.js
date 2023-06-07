@@ -27,7 +27,8 @@ export default function CourseCard(props) {
                 border: "1px solid #00000050",
                 backdropFilter: "blur(5px)",
             }}
-            onClick={() => {window.location.href=`http://localhost:3000/${props.title}`}}
+            onClick={() => {window.location.href=`${props.courseDetail.link}`}}
+            
         >
             <Image
                 height="160px"
@@ -98,6 +99,7 @@ export default function CourseCard(props) {
                         textColor="blue"
                         m="2"
                         style={{ position: "absolute", bottom: "0", right: "0" }}
+                        
                     >
                         Explore <ArrowRightIcon w={2} h={2} />
                     </Text>

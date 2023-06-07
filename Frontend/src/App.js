@@ -4,11 +4,11 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import "./App.css";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
+import LandingPage from "./components/Landing/LandingPage";
 import HomePage from "./components/Home/HomePage";
 import Trivia from "./components/TechTrivia/Trivia";
 import NotesKeeper from "./components/Notes_Keeper/NotesKeeper";
-import ContactPage from "./components/Contact/ContactPage";
-import CodeEditorPage from "./components/CodeEditor/CodeEditorPage";
+import DiscussionPage from "./components/Discussion/DiscussionPage";
 
 
 const colors = {
@@ -28,11 +28,11 @@ function App() {
       <Navbar />
       <BrowserRouter>
         <Routes>
-          <Route exact path="/" element={<HomePage />} />
-          <Route exact path="/codeeditor" element={<CodeEditorPage />} />
+          <Route exact path="/" element={<LandingPage />} />
+          <Route exact path="/courses" element={<HomePage />} />
           <Route exact path="/trivia" element={<Trivia />} />
           <Route exact path="/noteskeeper" element={<NotesKeeper />} />
-          <Route exact path="/contact" element={<ContactPage />} />
+          <Route exact path="/discussion" element={<DiscussionPage />} />
           {/* <TriviaQuizPanel/> */}
           {/* <CourseDetails/> */}
         </Routes>

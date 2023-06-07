@@ -10,7 +10,7 @@ export default function LandingCards()
       setRenderLandingCards(
         Object.keys(LandingCardDetails).map(e => {
             // return (JSON.stringify(Courses[e]))
-            return <LandingCard LandingCardDetail={LandingCardDetails[e]} title={e}/>
+            return <LandingCard id={e} LandingCardDetail={LandingCardDetails[e]} title={e}/>
         })
       )
     }, [])
