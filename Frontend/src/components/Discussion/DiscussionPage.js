@@ -9,7 +9,7 @@ const systemMessage = { //  Explain things like you're talking to a software pro
   "role": "system", "content": "Explain things like you're talking to a software professional with 2 years of experience."
 }
 
-function ContactPage() {
+function DiscussionPage() {
   const [messages, setMessages] = useState([
     {
       message: "Hello, I'm Seria! How may I help you?",
@@ -107,4 +107,4 @@ function ContactPage() {
   )
 }
 
-export default ContactPage
+export default DiscussionPage
