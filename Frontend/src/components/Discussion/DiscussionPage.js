@@ -1,5 +1,5 @@
 import { useState } from 'react'
-
+import styles from "./Discussion.module.css";
 import '@chatscope/chat-ui-kit-styles/dist/default/styles.min.css';
 import { MainContainer, ChatContainer, MessageList, Message, MessageInput, TypingIndicator } from '@chatscope/chat-ui-kit-react';
 
@@ -84,7 +84,7 @@ function DiscussionPage() {
   }
 
   return (
-    <div className="App">
+    <div  className={styles.background}>
         
       <div style={{ position:"center", height: "550px", width: "700px", marginTop: "100px", marginBottom: "100px", marginLeft: "auto", marginRight: "auto"  }}>
         
