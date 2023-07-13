@@ -55,7 +55,9 @@ export default function Navbar() {
         <Box color={'black'} marginTop={4} marginLeft={7} marginRight={7} onClick={() => {window.location.href="http://localhost:3001/trivia"}} >
           Tech Trivia
         </Box>
-        
+        <Box color={'black'} marginTop={4} marginLeft={7} marginRight={7} onClick={() => {window.location.href="http://localhost:3001/about"}} >
+          About us
+        </Box>
         
       </Box>
       

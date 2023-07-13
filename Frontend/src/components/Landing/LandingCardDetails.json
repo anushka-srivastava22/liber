@@ -1,16 +1,16 @@
 {
     "Courses" : {
-        "def" : "You will get to know about important subjects of different branches of Engineering.",
+        "def" : "Our platform provides comprehensive insights into the essential subjects across various branches of Engineering, ensuring users gain knowledge about key topics in an accessible and informative manner.",
         "imgurl" : "/images/course.png",
         "link" : "http://localhost:3001/courses"
     },
     "Discussion" : {
-        "def" : "You can discuss your doubts and get help from Seria - AI Chatbot.",
+        "def" : "Seria, our AI chatbot, is at your service to help address your doubts and provide valuable assistance. Engage in conversations with Seria and benefit from its intelligent responses to enhance your understanding and resolve any technical queries.",
         "imgurl" : "/images/discussion.png",
         "link" : "http://localhost:3001/discussion"
     },
     "TechTrivia": {
-        "def" : "You can test your knowledge and technical skills by playing technical quiz of various subjects.",
+        "def" : "Put your knowledge and technical skills to the test with our diverse range of technical quizzes. Engage in challenging quizzes across various subjects and gauge your expertise while enhancing your understanding in an interactive and engaging manner.",
         "imgurl" : "/images/trivia.png",
         "link" : "http://localhost:3001/trivia"
     }
