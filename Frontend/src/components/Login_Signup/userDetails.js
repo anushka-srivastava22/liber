@@ -1,9 +1,10 @@
 //import React, { useEffect, useState } from "react";
 import React, { useState, useEffect } from "react";
+import UserHome from "./UserHome";
 
 export default function UserDetails() {
   const [userData, setUserData] = useState("");
-
+  
   useEffect(() => {
     fetch("http://localhost:3000/userData", {
       method: "POST",
@@ -25,4 +26,5 @@ export default function UserDetails() {
       });
   }, []);
 
+  return ( <UserHome userData={userData} />);
 }

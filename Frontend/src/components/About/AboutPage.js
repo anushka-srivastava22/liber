@@ -2,16 +2,14 @@ import styles from "./AboutPage.module.css";
 import {
     Box,
     Image,
-    Grid,
-    GridItem,
     Text,
 
 } from "@chakra-ui/react";
 export default function AboutPage() {
     return (
         <Box className={styles.background}  >
-            <Box style={{ marginTop: "100px", marginBottom: "30px" }}>
-                <Box style={{ marginLeft: "30%" }}>
+            <Box style={{ marginTop: "130px", marginBottom: "30px" }}>
+                <Box style={{ marginLeft: "32%",marginRight: "20%" }}>
                     <Image width='500px' height='250px' src='images/about.png' alt='About' />
                 </Box>
                 <Box style={{ marginLeft: "22%", marginRight: "22%", marginTop: "50px" }}>

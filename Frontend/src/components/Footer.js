@@ -61,7 +61,8 @@ export default function Footer() {
           }}
         >
           <Box fontSize="md">
-            Reach Us At -<br></br> Civil Lines, Prayagraj
+            Contact Us At - srivastavaanushka3@gmail.com<br/><br/>
+            Call Us On - 83XXXXXX87
           </Box>
           <Box>
             Subscribe to Newsletter ! <br></br>

@@ -21,6 +21,7 @@ export default function Navbar() {
   const loggedOut = () => {
     localStorage.removeItem("userID");
     setIsLoggedIn(localStorage.getItem("userID"));
+    window.location.href="http://localhost:3001/";
   };
 
   return (
@@ -71,7 +72,7 @@ export default function Navbar() {
             </MenuButton>
             <MenuList>
               <MenuGroup title="Profile">
-                <MenuItem onClick={() => {window.location.href="#"}}>My Account</MenuItem>
+                <MenuItem onClick={() => {window.location.href="http://localhost:3001/dashboard"}}>My Account</MenuItem>
                 <MenuItem onClick={() => {window.location.href="http://localhost:3001/trivia"}}>Play Trivia </MenuItem>
                 <MenuItem onClick={() => {window.location.href="http://localhost:3001/noteskeeper"}}>Notes Keeper </MenuItem>
               </MenuGroup>

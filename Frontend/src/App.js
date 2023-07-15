@@ -10,6 +10,7 @@ import Trivia from "./components/TechTrivia/Trivia";
 import NotesKeeper from "./components/Notes_Keeper/NotesKeeper";
 import DiscussionPage from "./components/Discussion/DiscussionPage";
 import AboutPage from "./components/About/AboutPage";
+import UserDetails from "./components/Login_Signup/UserDetails";
 
 
 const colors = {
@@ -34,7 +35,9 @@ function App() {
           <Route exact path="/trivia" element={<Trivia />} />
           <Route exact path="/noteskeeper" element={<NotesKeeper />} />
           <Route exact path="/discussion" element={<DiscussionPage />} />
+          <Route exact path="/dashboard" element={<UserDetails />} />
           <Route exact path="/about" element={<AboutPage />} />
+          
           {/* <TriviaQuizPanel/> */}
           {/* <CourseDetails/> */}
         </Routes>

@@ -6,7 +6,6 @@ const cors = require("cors");
 app.use(cors());
 const bcrypt = require("bcryptjs");
 //const { MongoClient } = require('mongodb');
-
 const jwt = require("jsonwebtoken");
 
 const JWT_SECRET ="hvdvay6ert72839289()aiyg8t87qt72393293883uhefiuh78ttq3ifi78272jbkj?[]]pou89ywe";
@@ -80,10 +79,15 @@ app.post("/userData", async (req, res) => {
   } catch (error) { }
 });
 
+
+
 const middleware = (req,res,next) => {
   console.log(`Hello middleware`);
   next();
 }
+
+app
+
 
 app.get('/', (req,res) => {
   res.send(`Hello world from server`);
