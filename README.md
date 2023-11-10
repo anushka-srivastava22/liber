@@ -17,8 +17,8 @@ Liber - Study Partner is a learning platform that aims to provide a centralized 
 ## Project Screenshots
 
 ![Screenshot_2023-11-10-16-28-23-52_f541918c7893c52dbd1ee5d319333948](https://github.com/anushka-srivastava22/my-portfolio/assets/67271376/7f63838e-a6a2-424c-8f0d-564b2fa86ad6)
-![Screenshot_2023-11-10-16-33-45-92_f541918c7893c52dbd1ee5d319333948](https://github.com/anushka-srivastava22/my-portfolio/assets/67271376/b7cb4e73-fbce-4dc0-9b09-1650ed53af60)
 ![Screenshot_2023-11-10-16-33-23-71_f541918c7893c52dbd1ee5d319333948](https://github.com/anushka-srivastava22/my-portfolio/assets/67271376/35a6286a-5eb6-4479-a766-962e5bb081bd)
+![Screenshot_2023-11-10-16-33-45-92_f541918c7893c52dbd1ee5d319333948](https://github.com/anushka-srivastava22/my-portfolio/assets/67271376/b7cb4e73-fbce-4dc0-9b09-1650ed53af60)
 ![Screenshot_2023-11-10-16-28-44-48_f541918c7893c52dbd1ee5d319333948](https://github.com/anushka-srivastava22/my-portfolio/assets/67271376/41919442-5cf1-4120-a385-57d9900c2958)
 ![Screenshot_2023-11-10-16-29-43-39_f541918c7893c52dbd1ee5d319333948](https://github.com/anushka-srivastava22/my-portfolio/assets/67271376/c9da7d63-67eb-49a3-b693-aa2e52600c21)
 
